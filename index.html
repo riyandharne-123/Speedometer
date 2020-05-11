@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spedometer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+<div class="row">
+<div class="column">
+    <div class="card">
+        <div class="card-body">
+        <h1 class="text-primary" style="padding-bottom: 20%;">Spedometer</h1>
+        <!--counter up-->
+       <h1 class="text-success"><span id="count-up">0 </span>Km/Hr</h1>
+        <!--progress bar-->
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar bg-success" id="progress-animation" style="height: 30px"></div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+            <input type="number" class="form-control" id="speed_val" placeholder="enter speed in numbers...">
+            <br>
+            <div class="row">
+                <div class="column">
+                    <button class="btn btn-outline-primary" onclick="update_speed()">Submit</button>
+                </div>
+            </div>
+          </div>
+            </div>
+</div>
+</div>
+    </div>
+</body>
+</html>

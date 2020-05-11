@@ -1,0 +1,14 @@
+.column{
+    margin: 0 auto;
+}
+.card{
+    width: 100%;
+height: 500px;
+}
+.container{
+    padding-top: 50px;
+}
+.form-group{
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
